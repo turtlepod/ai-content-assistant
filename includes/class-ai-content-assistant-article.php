@@ -125,7 +125,7 @@ class AI_Content_Assistant_Article {
                 ),
                 'temperature' => 0.7,
             )),
-            'timeout' => 300,
+            'timeout' => 30,
         ));
 
         if (is_wp_error($response)) {
